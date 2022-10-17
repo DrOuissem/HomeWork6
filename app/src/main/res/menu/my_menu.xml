@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="twitter"
+    android:id="@+id/twitter"
+    android:icon="@drawable/twitter_logo"
+    app:showAsAction="always"/>
+    <item android:title="linkedin"
+        android:id="@+id/linkedin"
+        android:icon="@drawable/lin_icon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@id/facebook"
+        android:icon="@drawable/fb_icon"
+        android:title="facebook"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/telegram"
+        android:icon="@drawable/img"
+        android:title="telegram"
+        app:showAsAction="ifRoom"/>
+</menu>
